@@ -1,0 +1,12 @@
+{
+    "instructors": [
+        {
+            "avatar_url": "hhtp://google.com",
+            "name": "Lucas da Silva Pedroso",
+            "birth": 644889600000,
+            "gender": "M",
+            "serveces": "Musculação",
+            "created_at": 1593917388392
+        }
+    ]
+}
