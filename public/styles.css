@@ -46,7 +46,7 @@ header {
     color: var(--primary-color);
 }
 
-.links a::after {
+.links a::before {
     content: "";
     width: 0;
     height: 2px;
@@ -56,10 +56,10 @@ header {
     bottom: -4px;
 }
 
-.links a:hover::after {
+.links a:hover::before {
     width: 100%;
-    transition: width 400ms ease-in-out;
-}
+    transition: width 400ms ease-out;
+} 
 
 /* === CARD === */
 
@@ -78,7 +78,7 @@ header {
     /* animation-name: animacao;
     animation-duration: 200ms;
     animation-timing-function: ease-out; */
-    animation: animacao 200ms ease-out;
+    animation: animacao 700ms ease-out;
 }
 
 @keyframes animacao {
