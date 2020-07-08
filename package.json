@@ -21,6 +21,7 @@
   "homepage": "https://github.com/LSP-Lucas/controle-de-academia#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "intl": "^1.2.5",
     "nunjucks": "^3.2.1"
   },
   "devDependencies": {

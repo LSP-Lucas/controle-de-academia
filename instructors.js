@@ -1,5 +1,29 @@
 const fs = require('fs'); // fs = file sistem
 const data = require('./data.json');
+const { age } = require('./utils');
+const Intl = require('intl');
+
+// SHOW
+
+exports.show = function(req, res) {
+    // req.params
+    const { id } = req.params;
+
+    const foundInstructor = data.instructors.find(function(instructor){
+        return instructor.id == id;
+    });
+
+    if(!foundInstructor) return res.send("Instructor not found!");
+
+    const instructor = {
+        ...foundInstructor,
+        age: age(foundInstructor.birth),
+        services: foundInstructor.services.split(","),
+        created_at: new Intl.DateTimeFormat('pt-BR', ).format(foundInstructor.created_at)
+    }
+    
+    return res.render("instructors/show", { instructor });
+}
 
 // CREATE
 
@@ -17,10 +41,22 @@ exports.post = function(req, res) {
             return res.send("Preencha todos os campos!");
     }
 
-    req.body.birth = Date.parse(req.body.birth);
-    req.body.created_at = Date.now();
+    let { avatar_url, birth, name, services, gender } = req.body;
 
-    data.instructors.push(req.body);
+    birth = Date.parse(birth);
+    const created_at = Date.now();
+    const id = Number(data.instructors.length + 1);
+
+    
+    data.instructors.push({
+        avatar_url,
+        id,
+        name,
+        birth,
+        gender,
+        services,
+        created_at
+    });
 
     fs.writeFile("data.json", JSON.stringify(data, null, 4), function(err) {
         if(err) return res.send("Write file error!");
