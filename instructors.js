@@ -1,6 +1,6 @@
 const fs = require('fs'); // fs = file sistem
 const data = require('./data.json');
-const { age } = require('./utils');
+const { age, date } = require('./utils');
 const Intl = require('intl');
 
 // SHOW
@@ -65,4 +65,24 @@ exports.post = function(req, res) {
     });
 
     // return res.send(req.body);
+}
+
+// EDIT
+
+exports.edit = function(req, res) {
+    // req.params
+    const { id } = req.params;
+
+    const foundInstructor = data.instructors.find(function(instructor){
+        return instructor.id == id;
+    });
+
+    if(!foundInstructor) return res.send("Instructor not found!");
+
+    const instructor = {
+        ...foundInstructor,
+        birth: date(foundInstructor.birth)
+    }
+    
+    return res.render('instructors/edit', { instructor });
 }

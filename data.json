@@ -1,7 +1,7 @@
 {
     "instructors": [
         {
-            "avatar_url": "hhtp://google.com",
+            "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
             "id": 1,
             "name": "Lucas da Silva Pedroso",
             "birth": 644889600000,
@@ -44,6 +44,24 @@
             "gender": "M",
             "services": "musculação",
             "created_at": "2020-07-08T02:30:58.043Z"
+        },
+        {
+            "avatar_url": "hhtp://google.com",
+            "id": 6,
+            "name": "curso",
+            "birth": 644889600000,
+            "gender": "M",
+            "services": "Vocal, Guitarra",
+            "created_at": 1594516200021
+        },
+        {
+            "avatar_url": "hhtp://google.com",
+            "id": 7,
+            "name": "Dalila",
+            "birth": -3337200000000,
+            "gender": "F",
+            "services": "Fitness, Natação, Atletismo",
+            "created_at": 1594516480511
         }
     ]
 }
