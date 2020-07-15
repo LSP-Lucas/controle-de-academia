@@ -11,15 +11,6 @@
         },
         {
             "avatar_url": "hhtp://google.com",
-            "id": 2,
-            "name": "Angular: CLI Teste",
-            "birth": 650160000000,
-            "gender": "F",
-            "services": "Fitness, Natação",
-            "created_at": 1594171038343
-        },
-        {
-            "avatar_url": "hhtp://google.com",
             "id": 3,
             "name": "Angular: CLI Teste",
             "birth": 647395200000,
@@ -53,15 +44,6 @@
             "gender": "M",
             "services": "Vocal, Guitarra",
             "created_at": 1594516200021
-        },
-        {
-            "avatar_url": "hhtp://google.com",
-            "id": 7,
-            "name": "Dalila",
-            "birth": -3337200000000,
-            "gender": "F",
-            "services": "Fitness, Natação, Atletismo",
-            "created_at": 1594516480511
         }
     ]
 }
