@@ -8,14 +8,19 @@ const Intl = require('intl');
 
 exports.index = function(req, res) {
 
-    let instructors = [...data.instructors]
+    const instructors = [...data.instructors];
+    let list_instructors = [];
 
-    for (instructor in instructors) {
-        instructors[instructor].services = instructors[instructor].services.split(",")
-      }
+        for (const instructor of instructors) {
 
-    return res.render("instructors/index", { instructors })
+            instructors = {
+                ...instructor,
+                services: instructor.services.split(",")
+            }
+            list_instructors.push(instructors);
+        }
 
+    return res.render("instructors/index", { instructors: list_instructors });
 }
 
 // SHOW
