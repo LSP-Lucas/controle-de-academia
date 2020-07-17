@@ -5,7 +5,7 @@
             "id": 1,
             "name": "Lucas Pedroso",
             "birth": 644889600000,
-            "gender": "M",
+            "gender": "F",
             "services": "musculação",
             "created_at": 1594171012105
         },
@@ -26,15 +26,6 @@
             "gender": "M",
             "services": "Fitness, Natação",
             "created_at": 1594175122684
-        },
-        {
-            "avatar_url": "https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-            "id": 6,
-            "name": "curso",
-            "birth": 644889600000,
-            "gender": "M",
-            "services": "Vocal, Guitarra",
-            "created_at": 1594516200021
         }
     ]
 }
