@@ -1,6 +1,6 @@
 const fs = require('fs'); // fs = file sistem
-const data = require('./data.json');
-const { age, date } = require('./utils');
+const data = require('../data.json');
+const { age, date } = require('../utils');
 const Intl = require('intl');
 
 
@@ -8,7 +8,7 @@ const Intl = require('intl');
 
 exports.index = function(req, res) {
 
-    const instructors = [...data.instructors];
+    let instructors = [...data.instructors];
     let list_instructors = [];
 
         for (const instructor of instructors) {
@@ -46,6 +46,13 @@ exports.show = function(req, res) {
 }
 
 // CREATE
+
+exports.create = function(req, res) {
+
+    return res.render("instructors/create");
+}
+
+// PUT
 
 exports.post = function(req, res) {
     // req.body
@@ -101,7 +108,7 @@ exports.edit = function(req, res) {
 
     const instructor = {
         ...foundInstructor,
-        birth: date(foundInstructor.birth)
+        birth: date(foundInstructor.birth).iso
     }
     
     return res.render('instructors/edit', { instructor });

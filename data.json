@@ -1,11 +1,35 @@
 {
+    "members": [
+        {
+            "id": 1,
+            "avatar_url": "https://images.unsplash.com/photo-1534872724459-3a23213491fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80",
+            "name": "Lucas da Silva Pedroso",
+            "email": "g.rez001@gmail.com",
+            "birth": 644889600000,
+            "gender": "M",
+            "blood": "O+",
+            "weight": "94",
+            "height": "182"
+        },
+        {
+            "id": 2,
+            "avatar_url": "https://images.unsplash.com/photo-1534872724459-3a23213491fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80",
+            "name": "Adriana Petrine",
+            "email": "teste03@fio.edu.br",
+            "birth": 644803200000,
+            "gender": "F",
+            "blood": "A+",
+            "weight": "70",
+            "height": "79"
+        }
+    ],
     "instructors": [
         {
             "avatar_url": "https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
             "id": 1,
             "name": "Lucas Pedroso",
             "birth": 644889600000,
-            "gender": "F",
+            "gender": "M",
             "services": "musculação",
             "created_at": 1594171012105
         },
@@ -17,15 +41,6 @@
             "gender": "F",
             "services": "Fitness, Natação, Atletismo, Teste",
             "created_at": 1594172489691
-        },
-        {
-            "avatar_url": "https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-            "id": 4,
-            "name": "Jacaré Recicle",
-            "birth": 644889600000,
-            "gender": "M",
-            "services": "Fitness, Natação",
-            "created_at": 1594175122684
         }
     ]
 }
