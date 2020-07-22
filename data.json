@@ -2,7 +2,7 @@
     "members": [
         {
             "id": 1,
-            "avatar_url": "https://images.unsplash.com/photo-1534872724459-3a23213491fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80",
+            "avatar_url": "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
             "name": "Lucas da Silva Pedroso",
             "email": "g.rez001@gmail.com",
             "birth": 644889600000,
@@ -13,9 +13,9 @@
         },
         {
             "id": 2,
-            "avatar_url": "https://images.unsplash.com/photo-1534872724459-3a23213491fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80",
+            "avatar_url": "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
             "name": "Adriana Petrine",
-            "email": "teste03@fio.edu.br",
+            "email": "adriana@teste.edu.br",
             "birth": 644803200000,
             "gender": "F",
             "blood": "A+",
@@ -36,10 +36,10 @@
         {
             "avatar_url": "https://images.unsplash.com/photo-1534872724459-3a23213491fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80",
             "id": 3,
-            "name": "Angular: CLI Teste",
+            "name": "Tamires",
             "birth": 647395200000,
             "gender": "F",
-            "services": "Fitness, Natação, Atletismo, Teste",
+            "services": "Fitness, Natação",
             "created_at": 1594172489691
         }
     ]
