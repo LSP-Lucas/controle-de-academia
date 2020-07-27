@@ -3,8 +3,8 @@
         {
             "id": 1,
             "avatar_url": "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-            "name": "Lucas da Silva Pedroso",
-            "email": "g.rez001@gmail.com",
+            "name": "Lucas da Silva ",
+            "email": "g@gmail.com",
             "birth": 644889600000,
             "gender": "M",
             "blood": "O+",
@@ -39,7 +39,7 @@
             "name": "Tamires",
             "birth": 647395200000,
             "gender": "F",
-            "services": "Fitness, Natação",
+            "services": "Corrida, Natação",
             "created_at": 1594172489691
         }
     ]
