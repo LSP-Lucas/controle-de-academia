@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = express.Router();
-const members = require('./controllers/members');
-const instructors = require('./controllers/instructors');
+const members = require('./app/controllers/members');
+const instructors = require('./app/controllers/instructors');
 
 routes.get('/', function(req, res) {
     return res.redirect("/instructors");
