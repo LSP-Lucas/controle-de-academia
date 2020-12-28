@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/LSP-Lucas/controle-de-academia/issues"
   },
-  "homepage": "https://github.com/LSP-Lucas/controle-de-academia#readme",
+  "homepage": "https://lsp-lucas.github.io/controle-de-academia/",
   "dependencies": {
     "express": "^4.17.1",
     "intl": "^1.2.5",
