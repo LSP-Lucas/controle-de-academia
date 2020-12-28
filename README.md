@@ -1,3 +1,4 @@
+permalink: src/app/views
 <h1 align="center">
     <img src="https://ik.imagekit.io/mqh5rdpeme/img-launchbase_u1x6ViV8P.png" alt="Desafios LaunchBase - Bootcamp" /> </h1>
 
